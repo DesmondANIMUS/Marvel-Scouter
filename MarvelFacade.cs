@@ -17,10 +17,7 @@ namespace Marvel_Scouter
     public class MarvelFacade
     {
         private const int randHash = 1500;
-        private const string privateKey = "6e43fc7788fa6f40499670eee8722905794ba863";
-        private const string publicKey = "a1fc304c600a9dc5f0d6d014718c5714";
-        private const string imageNotAvail = "http://i.annihil.us/u/prod/marvel/i/mg/b/40/image_not_available";
-
+    
 
         #region Comic Characters
         public static async Task PopulateMarvelCharactersAsync(ObservableCollection<Character> marvelCharacters)
