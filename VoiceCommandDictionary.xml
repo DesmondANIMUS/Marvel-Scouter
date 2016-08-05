@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.1">
+  <CommandSet xml:lang="en-us" Name="ExampleAppCommandSet_en-us">
+    <CommandPrefix> Marvel Scouter, </CommandPrefix>
+    <Example> Refresh the character </Example>
+
+    <Command Name="refresh">
+      <Example> refresh the character list  </Example>
+      <ListenFor> refresh [the] [character] list </ListenFor>
+      <ListenFor> refresh characters </ListenFor>
+      <Feedback> Refreshing the characterlist </Feedback>
+      <Navigate/>
+    </Command>
+
+  </CommandSet>
+</VoiceCommands>
